@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: black;
+}
+section {
+    width: 100%;
+}
+
+#home {
+    background-image: url("https://techbit.pt/wp-content/uploads/2021/01/disney-catalogo-filmes-series-star.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,9,121,0) 100%);
+    align-items: center;
+    justify-content: space-between;
+}
+
+header button {
+    height: 40px;
+    width: 75px;
+    border-radius: 7px;
+    border: none;
+    font-size: inherit;
+    color: white;
+    background-color: transparent;
+    margin-right: 15px;
+}
+ header button:hover{
+    background-color: rgb(33, 30, 30);
+    transition: 0.2s ease-in-out;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: inherit;
+    height: 65%;
+}
+main img {
+    width: 250px;
+}
+main h6 {
+    color: #10e880;
+    font-weight: bold;
+    font-size: 12pt;
+}
+main h4 {
+    color: white;
+    font-size: 16pt;
+    padding: 15px;
+}
+main button {
+    width: 100%;
+    height: 42px;
+    border-radius: 7px;
+    border: none;
+    font-size: inherit;
+    background-color: #10e880 ;
+}
+main a {
+    font-size: 6pt;
+    color: white;
+}
+#subscription {
+    text-align: center;
+}
+#subscription a {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer {
+    width: inherit;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,9,121,0) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer #footer-images {
+
+    margin-left: -180px;
+    margin-right: -180px;
+    display: flex;
+    
+}
+
+footer #footer-texts {
+    width: 250px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer #footer-action button{
+    text-align: center;
+   
+}
+
+footer #footer-action a {
+    display: block;
+}
+img {
+    width: 80px;
+}
+header img{
+    width: 150px;
+}
+footer img{
+    width: 150px;
+    height: 90px;
+}
+footer h5{
+    padding: 40px;
+}
+#footer-button{
+    width: 200px;
+    height: 42px;
+    border-style: groove;
+    border-radius: 7px;
+    font-size: inherit;
+    color: white;
+    background-color: transparent;
+}
+#footer-button-term{
+    color: white;
+    margin-left: 55px;
+    padding: 10px;
+}
+.movies {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(39, 39, 39); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.text{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+.text #testing {
+    width: 63%;
+}
+#testing h6{
+    color: #10e880;
+}
+#testing h1{
+    color: white;
+}
+.text h1{
+    margin-top: 20px;
+}
+
+.text p {
+    margin-top: 30px;
+    color: white;
+}
+
+#image-box{
+    display: flex;
+    align-items: center;
+}
+#image-box img{
+    width: 300px;
+    height: 450px;
+    margin-left: 16px;
+}
+.text{
+    width: 100%;
+    height: 200px;
+}
+.textSecao3{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+.textSecao3 h5{
+    color: #10e880;
+    font-size: 9px;
+}
+.textSecao3 h1{
+    color:white;
+    font-size: 36px;
+    margin-top: 30px;
+}
+.textSecao3 p{
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#p2{
+    font-size: 11px;
+    padding: 20px;
+}
+.textSecao3 a{
+    color: white;
+    margin-top: 30px;
+    display: block;
+}
+
+.textSecao3 a i{
+    animation-delay: .3s;
+    animation: anime 1s infinite ease-in-out alternate;
+
+}
+@keyframes anime {
+   100% {
+    transform: translateY(10px);
+   }
+}
+
